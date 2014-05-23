@@ -2,7 +2,7 @@ include $(GOROOT)/src/Make.inc
 
 all: package
 
-TARG=launchpad.net/gozk/zookeeper
+TARG=github.com/koofr/gozk/zookeeper
 
 GOFILES=\
 	server.go\

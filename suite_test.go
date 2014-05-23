@@ -2,8 +2,8 @@ package zookeeper_test
 
 import (
 	"fmt"
+	zk "github.com/koofr/gozk/zookeeper"
 	. "launchpad.net/gocheck"
-	zk "launchpad.net/gozk/zookeeper"
 	"os"
 	"testing"
 	"time"
